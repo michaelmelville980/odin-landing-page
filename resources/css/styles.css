@@ -1,0 +1,10 @@
+/* All Text */
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+/* Hero */
+#hero {
+    background-color: 1F2937;
+}
