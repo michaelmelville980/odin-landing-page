@@ -145,21 +145,33 @@ header nav{
     gap: 50px;
 }
 
+/* ================ Inspiring Quote ================*/
 
+/* ==== General Element Formatting ==== */
 
-
-
-
-
-
-
-
-
-
-
-/* Background Color Quote */
+/* Background Color */
 .quote {
     background-color: #E5E7EB
+}
+
+/* Quote*/
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Footer*/
+.quote footer{
+    font-size: 24px;
+    font-style: bold;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* ==== Layout/Display Formatting ==== */
+.quote{
+    padding: 100px 300px;
 }
 
 
