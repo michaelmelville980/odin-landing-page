@@ -1,10 +1,103 @@
-/* All Text */
+
+/* ============ Global Formatting ============*/
+
+/* Resetting Baseline Formating */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* General Text Characteristics */
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
   }
 
-/* Hero */
-#hero {
-    background-color: 1F2937;
+/* Background Color (Shared) */
+header, .hero, .footer {
+    background-color: #1F2937;
 }
+
+/* ================ Header/Hero Sections ================*/
+
+/* ==== General Element Formatting ==== */
+
+/* Header Logo */
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+/* Hero Main Text */
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/* Hero Secondary text, Header Link Text */
+.hero-text p,
+.nav-links a,
+.hero-image-placeholder{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+/* Call to action button */
+.hero-text button{
+    background-color: #3882F6;
+    font-weight: 700;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 30px;
+    border:none;
+}
+
+/* Hero image placeholder */
+.hero-image-placeholder{
+    background-color: gray;
+}
+
+/* ==== Layout/Display Formatting ==== */
+
+/* nav bar container */
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nav links container */
+.nav-links{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Background Color Quote */
+.quote {
+    background-color: #E5E7EB
+}
+
+
+
+
+
