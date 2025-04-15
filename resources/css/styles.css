@@ -60,7 +60,7 @@ header, .hero, .footer {
 
 /* Hero image placeholder */
 .hero-image-placeholder{
-    background-color: gray;
+    background-color:gray;
 }
 
 /* ==== Layout/Display Formatting ==== */
@@ -69,6 +69,8 @@ header, .hero, .footer {
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 75px 150px;
 }
 
 /* nav links container */
@@ -76,6 +78,34 @@ header nav{
     display: flex;
     gap: 30px;
 }
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px 75px 150px;
+    gap: 50px;
+}
+
+.hero-image-placeholder{
+    white-space: nowrap;
+    width: fit-content;
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-text button{
+    width: fit-content;
+}
+
+
 
 
 
