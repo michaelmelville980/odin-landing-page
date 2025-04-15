@@ -205,6 +205,16 @@ header nav{
     border-radius: 8px;
 }
 
+/* ================ Footer ================*/
+.footer {
+    padding: 40px;
+    color: #F9FAF8;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+
 
 
 
